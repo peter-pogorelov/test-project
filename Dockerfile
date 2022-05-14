@@ -7,4 +7,4 @@ ADD ./ /usr/app/src
 
 RUN pip install -r requirements.txt
 
-CMD [ "python", "./test.py"]
+CMD [ "python", "app.py"]
