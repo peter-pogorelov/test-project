@@ -23,7 +23,8 @@ random_forest_model2 = RandomForestRegressor(n_estimators=1000,
 
 ### How to install instructions and run your app with virtual environment 
 ```
-virtualenv -p python3.7
+virtualenv .env -p python3.7
+source .env/bin/activate
 pip install -r requirements.txt
 python app.py
 ```
